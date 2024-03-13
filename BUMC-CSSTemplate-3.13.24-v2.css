@@ -342,7 +342,7 @@
     border-radius: 3px;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em #1769ff;
+    box-shadow: inset 1em 1em #95368f;
 }
 
 .mpp-about-me--checkbox-container input[type="checkbox"]:checked::before {
@@ -364,20 +364,20 @@
 }
 
 .mpp-about-me--submit-button {
-    border: 2px solid #6a8dcd;
+    border: 2px solid #95368f;
     border-radius: 4px;
     padding: 10px;
     cursor: pointer;
-    background-color: #6a8dcd;
+    background-color: #95368f;
     color: #fff;
 }
 
 .mpp-about-me--cancel-button {
-    border: 2px solid #6a8dcd;
+    border: 2px solid #95368f;
     border-radius: 4px;
     padding: 10px;
     cursor: pointer;
-    color: #6a8dcd;
+    color: #95368f;
 }
 
 .mpp-about-me--notification-container {
@@ -605,7 +605,7 @@
     --card-textColor: #384249;
     --card-borderRadius: 4px;
     --card-boxShadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-    --card-primaryColor: #4a95ec;
+    --card-primaryColor: #95368f;
     --card-badgeBgColor: var(--card-textColor);
     --card-headerBgColor: #666;
     --card-badgeStatusActiveColor: var(--card-primaryColor);
