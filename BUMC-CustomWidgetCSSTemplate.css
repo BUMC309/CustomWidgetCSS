@@ -523,12 +523,12 @@
 
     .mppw-btn:hover,
     .mppw-btn:focus {
-        background: #83257D;
+        background: #83257D !important;
         color: #fff;
     }
 
     .mppw-btn:active {
-        background: #D980D3;
+        background: #D980D3 !important;
         color: #fff;
     }
 
@@ -544,7 +544,7 @@
 
     .mppw-btn.secondary {
         background: #95368f;
-	color: #fff    
+	color: #fff !important;    
         border: 1px solid var(--form-btn-secondary-text);
         box-shadow: none;
         color: var(--form-btn-secondary-text);
@@ -553,11 +553,11 @@
 
         .mppw-btn.secondary:hover,
         .mppw-btn.secondary:focus {
-            background: #83257D;
+            background: #83257D !important;
         }
 
         .mppw-btn.secondary:active {
-            background: #D980D3;
+            background: #D980D3 !important;
         }
 
 @media only screen and (max-width: 768px) {
@@ -4541,7 +4541,7 @@ select:focus + .focus {
     }
 
     #promoCodeContainer #addPromoCodeButton {
-        max-width: 50px;
+        max-width: 150px !important;
         margin-left: 0 !important;
     }
 
