@@ -615,8 +615,8 @@
     --card-fontSize: 14px;
     --card-fontSizeHeader: 18px;
     --card-lineHeight: 24px;
-    --card-progressBarColor: #1b88b0;
-    --card-progressBarActiveColor: linear-gradient(90deg, #1b88b0 0%, #1fb5ac 100%);
+    --card-progressBarColor: #95368f;
+    --card-progressBarActiveColor: linear-gradient(90deg, #95368f 0%, #E12726 100%);
     --card-progressBarRemainingColor: #efefef;
     --card-progressBarCompleteColor: #77be43;
     --card-imageBgColor: #657783;
