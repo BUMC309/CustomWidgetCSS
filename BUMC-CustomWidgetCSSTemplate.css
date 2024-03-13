@@ -14,12 +14,12 @@
     --form-invalid: #dc3545;
     --form-btn-primary-text: #fff;
     --form-btn-primary-bgcolor: #95368f;
-    --form-btn-primary-hover: #692564;
-    --form-btn-primary-active: #95368f;
+    --form-btn-primary-hover: #D980D3;
+    --form-btn-primary-active: #D980D3;
     --form-btn-secondary-text: #fff;
-    --form-btn-secondary-bgcolor: #fff;
-    --form-btn-secondary-hover: #f6f7f9;
-    --form-btn-secondary-active: #ededed;
+    --form-btn-secondary-bgcolor: #95368f;
+    --form-btn-secondary-hover: #D980D3;
+    --form-btn-secondary-active: #D980D3;
     --form-btn-disabled: #657783;
     --card-bgcolor: #fff;
     --card-title-color: #696969;
@@ -523,12 +523,12 @@
 
     .mppw-btn:hover,
     .mppw-btn:focus {
-        background: #95368f;
+        background: #83257D;
         color: #fff;
     }
 
     .mppw-btn:active {
-        background: #95368f;
+        background: #D980D3;
         color: #fff;
     }
 
@@ -544,6 +544,7 @@
 
     .mppw-btn.secondary {
         background: #95368f;
+	color: #fff    
         border: 1px solid var(--form-btn-secondary-text);
         box-shadow: none;
         color: var(--form-btn-secondary-text);
@@ -552,11 +553,11 @@
 
         .mppw-btn.secondary:hover,
         .mppw-btn.secondary:focus {
-            background: #95368f;
+            background: #83257D;
         }
 
         .mppw-btn.secondary:active {
-            background: #95368f;
+            background: #D980D3;
         }
 
 @media only screen and (max-width: 768px) {
