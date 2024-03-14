@@ -2644,6 +2644,14 @@ input::-webkit-date-and-time-value {
     margin-bottom: 0;
 }
 
+#gradient stop:first-of-type {
+    stop-color: #95368f; /* Your desired color for the first stop at 0% */
+}
+
+#gradient stop:last-of-type {
+    stop-color: #e32426; /* Your desired color for the last stop at 100% */
+}
+
 .mpp-form--tabs {
     margin-bottom: 16px;
 }
