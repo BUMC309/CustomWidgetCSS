@@ -2643,13 +2643,6 @@ input::-webkit-date-and-time-value {
 .mpp-innerpage .progress--container h3 {
     margin-bottom: 0;
 }
-#gradient stop:first-child {
-    stop-color: #95368f; /* Your desired start color */
-}
-
-#gradient stop:last-child {
-    stop-color: #1fb5ac; /* Your desired end color */
-}
 
 .mpp-form--tabs {
     margin-bottom: 16px;
