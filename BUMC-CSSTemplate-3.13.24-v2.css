@@ -4578,10 +4578,8 @@ window.onload=waitForShadow(100,1,40);
     }
 
     #promoCodeContainer #addPromoCodeButton {
-        width: 50px;
-    	margin-left: 0 !important;
-    	height: 25px;
-    	font-size: 12px
+        max-width: 150px !important;
+        margin-left: 0 !important;
     }
 
     #promoCodeContainer #promoCodeText {
