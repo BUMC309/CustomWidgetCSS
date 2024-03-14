@@ -1828,7 +1828,7 @@ select.mppw-form-field__control,
 .mppw-form-field__alt-label {
     display: block;
     margin-bottom: 1.5em;
-    font-size: 14px;
+    font-size: 14px !important;
     padding: 3px;
 }
 
@@ -1839,6 +1839,7 @@ label .mppw-form-field__alt-label-container{
 label .mppw-form-field__alt-label-container .mppw-form-field__alt-label-content{
 	display: inline-block;	
 	max-width: 95%;
+	font-size: 14px !important;
 }
 
 label .mppw-form-field__alt-label-container .mppw-form-field__alt-label-required{
@@ -4577,8 +4578,10 @@ window.onload=waitForShadow(100,1,40);
     }
 
     #promoCodeContainer #addPromoCodeButton {
-        max-width: 150px !important;
-        margin-left: 0 !important;
+        width: 50px;
+    	margin-left: 0 !important;
+    	height: 25px;
+    	font-size: 12px
     }
 
     #promoCodeContainer #promoCodeText {
