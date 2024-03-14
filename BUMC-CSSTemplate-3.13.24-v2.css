@@ -4410,43 +4410,6 @@ select:focus + .focus {
     padding: 28px 13px 12px 13px;
 }
 
-<script type="text/javascript">
-/* Set your campaign end date */
-const endDate = new Date('2024-12-31-);
-
-/* Wait for the shadowRoot to Load in the widget */
-function waitForShadow(timeToWait,currentRun,maxRun) {
-	if (document.querySelector('mpp-pledge-campaign').shadowRoot) {
-		waitForDateFields(timeToWait,1,maxRun);
-	} else if (maxRun > currentRun-1) {
-		currentRun = currentRun+1;
-		setTimeout(waitForShadow,timeToWait,timeToWait,currentRun,maxRun);
-	}
-}
-
-/* Wait for the date fields to Load in the widget */
-function waitForDateFields(timeToWait,currentRun,maxRun) {
-	if (document.querySelector('mpp-pledge-campaign').shadowRoot.querySelector('#LastInstallmentDate)) {
-		updateDateFields();
-	} else if (maxRun > currentRun-1) {
-		currentRun = currentRun+1;
-		setTimeout(waitForDateFields,timeToWait,timeToWait,currentRun,maxRun);
-	}
-}
-
-/* Update the date fields with the endDate value */
-function updateDateFields(){
-	var pledgeForms = document.querySelectorAll('mpp-pledge-campaign');
-	for (var i = 0; i < pledgeForms.length; i++) {
-		var dateField = pledgeForms[i].shadowRoot.querySelector('#LastInstallmentDate');
-		dateField.valueAsDate = endDate;
-	}
-}
-
-/* Start waitForShadow */
-window.onload=waitForShadow(100,1,40);
-</script>
-
 
 /*--------------------------------------------*/
 /* Radio and Checkbox                         */
