@@ -4541,10 +4541,10 @@ select:focus + .focus {
     }
 
     #promoCodeContainer #addPromoCodeButton {
-        width: 50px;
+        width: 50px !important;
         margin-left: 0 !important;
-        height: 25px;
-        font-size: 12px
+        height: 25px !important;
+        font-size: 12px !important
     }
 
     #promoCodeContainer #promoCodeText {
