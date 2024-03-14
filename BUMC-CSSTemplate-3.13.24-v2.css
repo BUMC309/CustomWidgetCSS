@@ -2644,12 +2644,12 @@ input::-webkit-date-and-time-value {
     margin-bottom: 0;
 }
 
-#gradient stop:first-of-type {
-    stop-color: #95368f; /* Your desired color for the first stop at 0% */
+#gradient stop:nth-child(1) {
+    stop-color: #95368f !important; /* Override the first stop color */
 }
 
-#gradient stop:last-of-type {
-    stop-color: #e32426; /* Your desired color for the last stop at 100% */
+#gradient stop:nth-child(2) {
+    stop-color: #e32426 !important; /* Override the second stop color */
 }
 
 .mpp-form--tabs {
