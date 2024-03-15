@@ -810,6 +810,36 @@
     margin: 0;
 }
 
+.mpp-card-multiselect--body .mppw-form-field__label[for="InstallmentAmount"] {
+    /* Your styling properties */
+    /* For example: */
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    /* Add any other styles you need */
+  }
+
+  .form--row {
+    /* Your styling properties */
+    /* For example: */
+    margin-bottom: 10px;
+    /* Add any other styles you need */
+  }
+  
+  .form--row strong {
+    /* Your styling properties for <strong> element */
+    /* For example: */
+    font-weight: bold;
+    /* Add any other styles you need */
+  }
+  
+  .form--row span#TotalPledgeValue {
+    /* Your styling properties for <span> element with id TotalPledgeValue */
+    /* For example: */
+    color: blue;
+    /* Add any other styles you need */
+  }
+
 .mpp-card-multiselect--image {
     height: 90px;
     width: 90px;
